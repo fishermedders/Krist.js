@@ -1,16 +1,28 @@
 {
-  "name": "Krist",
-  "version": "1.0.0",
+  "name": "krist.js",
+  "version": "1.0.1",
   "description": "Module for interacting with the Krist Node at http://krist.ceriat.net/",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fishermedders/krist.git"
+  },
+  "keywords": [
+    "krist",
+    "utils",
+    "utilities",
+    "ceriat",
+    "krist.js"
+  ],
   "keywords": [],
   "author": "Fisher",
   "license": "WTFPL",
   "dependencies": {
     "krist-utils": "^1.0.5",
     "node-fetch": "^2.6.1"
-  }
+  },
+  "homepage": "https://github.com/fishermedders/krist.js#readme"
 }
