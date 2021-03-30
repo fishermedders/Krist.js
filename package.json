@@ -1,6 +1,6 @@
 {
   "name": "krist.js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Module for interacting with the Krist Node at http://krist.ceriat.net/",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/fishermedders/krist.git"
+    "url": "git+https://github.com/fishermedders/krist.js.git"
   },
   "keywords": [
     "krist",
