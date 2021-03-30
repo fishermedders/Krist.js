@@ -1,6 +1,6 @@
 {
   "name": "krist.js",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Module for interacting with the Krist Node at http://krist.ceriat.net/",
   "main": "index.js",
   "scripts": {
@@ -17,8 +17,7 @@
     "ceriat",
     "krist.js"
   ],
-  "keywords": [],
-  "author": "Fisher",
+  "author": "Fisher Medders <yo@fishermedders.com> (https://fishermedders.com/)",
   "license": "WTFPL",
   "dependencies": {
     "krist-utils": "^1.0.5",
