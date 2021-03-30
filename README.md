@@ -4,4 +4,6 @@ Javascript Library for interacting with the Krist Node at http://krist.ceriat.ne
 ## Usage
 To use this package in a project, run `npm i krist.js`.
 
-## More useful documentation coming to your local krist.js github repo page soon :)
+## Documentation
+Most documentation is at the wiki page under this github repo
+*More useful documentation coming to your local krist.js github repo page soon :)
