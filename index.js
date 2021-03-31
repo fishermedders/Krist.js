@@ -187,7 +187,13 @@ const BlockMethods = {
     },
     submitBlock(address, nonce) {
         return new Promise((resolve, reject) => {
-            fetch('https://krist.ceriat.net/submit')
+            fetch('https://krist.ceriat.net/submit', {method: 'POST', headers: {
+                'Accept': 'application/json',
+                'Content-Type': 'application/json'
+              }, body: JSON.stringify({
+                address: address,
+                nonce: nonce
+            })})
                 .then(res => res.json())
                 .then(serverResult => { resolve(serverResult) });
         })
