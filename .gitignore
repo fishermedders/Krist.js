@@ -1,3 +1,6 @@
+# jsDoc
+out/
+
 # Logs
 logs
 *.log
